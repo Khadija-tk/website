@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+    background-color: rgba(86, 19, 148, 0.464);
+    height: 300px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    font-size: larger;
+    display: block;
+}
+.navbar{
+    background-color: rgb(117, 87, 146);
+    height: 100px;
+    font-size: xx-large;
+    padding-top: 35px;    
+    display: block;
+}
+.navbar a:hover{
+    background-color: rgb(151, 98, 149);
+    color: black;
+}
+.text{
+    color: azure;
+    margin-top: 15px;
+    margin-left: 10px;
+   text-decoration: none;
+}
+.samerow::after {
+    display: table;
+    float: left;
+   
+}
